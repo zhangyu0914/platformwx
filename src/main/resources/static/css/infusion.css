@@ -1,0 +1,373 @@
+body {
+  /* On modern browsers, prevent the whole page to bounce */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "宋体";
+}
+body #wrapper {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  top: 2%;
+  bottom: 2%;
+  overflow: hidden;
+  /* Prevent native touch events on Windows */
+  -ms-touch-action: none;
+  /* Prevent the callout on tap-hold and text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent text resize on orientation change, useful for web-apps */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+body #wrapper #scroller {
+  position: absolute;
+  /* Prevent elements to be highlighted on tap */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* Put the scroller into the HW Compositing layer right from the start */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+body #wrapper #scroller .contain .my-gallery .none {
+  display: none !important;
+}
+body #wrapper #scroller .contain .my-gallery .label-list {
+  width: 100%;
+  text-align: center;
+}
+body #wrapper #scroller .contain .my-gallery .label-list #img {
+  width: 100%;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-baby #img {
+  width: 100%;
+  height: 1.67rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-mather #img {
+  width: 50%;
+  height: 1rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-assets #img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-nurse #img {
+  width: 100%;
+  height: 2rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-patient #img {
+  width: 50%;
+  height: 1.5rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-calling #img {
+  width: 50%;
+  height: 2rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-Intelligent-bed #img {
+  width: 50%;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-reader #img {
+  width: 100%;
+  height: 1.5rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-Internet #img {
+  width: 100%;
+  height: 1.5rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-Bedside-card #img {
+  width: 100%;
+  height: 1.5rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-Positioner #img {
+  width: 100%;
+  height: 1.5rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-monitor #img {
+  width: 50%;
+  height: 1.5rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .label-list-des {
+  width: 100%;
+}
+body #wrapper #scroller .contain .my-gallery .label-list-des p {
+  font-size: 0.12rem;
+  letter-spacing: 1px;
+  line-height: 0.24rem;
+  color: #444;
+  text-align: justify;
+}
+body #wrapper #scroller .contain .my-gallery .label-list-des p span {
+  font-size: 0.14rem;
+  font-weight: bold;
+  color: #ff4e00;
+  margin-right: 0.05rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul {
+  width: 100%;
+}
+body #wrapper #scroller .contain .my-gallery .ul li {
+  display: inline-block;
+  width: 100%;
+  line-height: 0.2rem;
+  font-size: 0.11rem;
+  background: #EEEEEE;
+  float: left;
+  margin-bottom: 5px;
+  padding-left: 0.25rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul li p {
+  display: inline-block;
+  float: left;
+  line-height: 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .location {
+  background: url(../img/label-013.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .img {
+  background: url(../img/label-014.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .z {
+  background: url(../img/label-015.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .si {
+  background: url(../img/label-016.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .yang {
+  background: url(../img/label-017.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .bi {
+  background: url(../img/label-021.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .chi {
+  background: url(../img/label-019.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .phone {
+  background: url(../img/label-022.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .ka {
+  background: url(../img/label-023.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .good {
+  background: url(../img/label-020.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .FDA {
+  background: url(../img/label-024.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .ling {
+  background: url(../img/label-018.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .shu {
+  background: url(../img/shu.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .shu2 {
+  background: url(../img/shu2.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .shui {
+  background: url(../img/shui.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .ul .yun {
+  background: url(../img/yun.jpg) no-repeat left top;
+  background-size: 0.2rem 0.2rem;
+}
+body #wrapper #scroller .contain .my-gallery .tittle-info {
+  width: 100%;
+  line-height: 0.2rem;
+  font-size: 0.12rem;
+  letter-spacing: 1px;
+  color: #000;
+  margin-top: 5px;
+  text-align: justify;
+}
+body #wrapper #scroller .contain .my-gallery .tittle-info span {
+  font-size: 0.16rem;
+  color: red;
+  font-weight: bold;
+}
+body #wrapper #scroller .contain .my-gallery .tittle-img {
+  width: 100%;
+}
+body #wrapper #scroller .contain .my-gallery .tittle-img #img-infusion {
+  width: 100%;
+  height: 1rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .substitution {
+  width: 80%;
+  padding: 0 10%;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-header {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.14rem;
+  color: #fff;
+  font-weight: bold;
+  background: #99d4ff;
+  background-size: 100% 100%;
+  text-align: center;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content {
+  width: 100%;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content .list {
+  width: 100%;
+  background: #EEEEEE;
+  background-size: 100% 100%;
+  display: table;
+  margin: 0.1rem 0;
+  border-radius: 10px;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content .list .list-header {
+  margin: 0.1rem 0;
+  font-size: 0.14rem;
+  line-height: 0.28rem;
+  float: left;
+  background: #99d4ff;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content .list ul {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  margin: 0.1rem 0;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content .list ul li {
+  display: inline-block;
+  font-size: 0.1rem;
+  color: #777777;
+  line-height: 0.2rem;
+  padding-left: 5%;
+  float: left;
+  width: 45%;
+}
+body #wrapper #scroller .contain .my-gallery .interface-des {
+  width: 100%;
+  display: table;
+}
+body #wrapper #scroller .contain .my-gallery .interface-des p {
+  display: inline-block;
+  font-size: 0.12rem;
+  line-height: 0.24rem;
+  color: #454545;
+  float: left;
+}
+body #wrapper #scroller .contain .my-gallery .interface-des p span {
+  font-size: 0.14rem;
+  font-weight: bold;
+  color: #444444;
+}
+body #wrapper #scroller .contain .my-gallery .interface-img {
+  width: 100%;
+  padding: 0.15rem 0;
+}
+body #wrapper #scroller .contain .my-gallery .interface-img #img {
+  width: 100%;
+  height: 2rem;
+}
+body #wrapper #scroller .contain .my-gallery h1 {
+  text-align: left;
+  font-size: 0.18rem;
+  line-height: 0.3rem;
+  color: #454545;
+  border-left: 5px solid red;
+  margin: 0.1rem 0;
+  text-indent: 0.1rem;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic {
+  width: 100%;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic .list {
+  width: 100%;
+  display: table;
+  font-size: 0.12rem;
+  color: #3e3a39;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic .list span,
+body #wrapper #scroller .contain .my-gallery .Characteristic .list p {
+  display: inline-block;
+  float: left;
+  line-height: 0.24rem;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic .list p {
+  width: 92%;
+  line-height: 0.24rem;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic .list span {
+  font-size: 0.13rem;
+  font-weight: bold;
+  color: red;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic .kong {
+  width: 100%;
+  height: 0.5rem;
+  float: left;
+}
+fieldset,
+img {
+  border: 0;
+}
+figure {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+.pswp__img {
+  background: #fff;
+}

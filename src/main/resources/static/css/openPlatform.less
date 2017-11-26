@@ -1,0 +1,265 @@
+#header{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    height: 0.8rem;
+    width: 100%;
+    display: flex;
+    padding: 0.1rem 0;
+    background: #333;
+    .list{
+        flex: 1;
+        height: 100%;
+        color: #999;
+        icon{
+            display: inline-block;
+            width: 100%;
+            height: 0.52rem;
+            float: left;
+        }
+        p{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            font-size: 0.1rem;
+            float: left;
+            margin-top: 0.1rem;
+        }
+    }
+    .list:nth-of-type(1) icon{
+        background: url(../img/structure.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+    .list:nth-of-type(2) icon{
+        background: url(../img/structure.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+    .list:nth-of-type(3) icon{
+        background: url(../img/development.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+    .list:nth-of-type(4) icon{
+        background: url(../img/operationSupport@3x.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+    .list:nth-of-type(5) icon{
+        background: url(../img/unionMall@3x.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+    
+    .active{
+        color: #fff;
+    }
+}
+
+#wrapper{
+    position: absolute;
+    z-index: 1;
+    top: 1rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ccc;
+    overflow: hidden;
+    font-family:STHeitiSC-Medium;
+    #scroller {
+        position: absolute;
+        z-index: 1;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        width: 100%;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        -o-text-size-adjust: none;
+        text-size-adjust: none;
+        background:#fdfdfd;
+        .content{
+            padding: 0 7% 0.15rem 7%;
+            margin: 0;
+            width: 86%;
+            /* 1. 平台简介   */
+            .platform{
+                width: 100%;
+                margin-top: 0.2rem;
+                display: table;
+                .platform-tittle{
+                    width: 100%;
+                    font-size: 0.2rem;
+                    color: #a4aab3;
+                    line-height:0.28rem;
+                    text-align:center;
+                    margin-bottom: 0.15rem;
+                    font-weight: bold;
+                    float: left;
+                }
+                .img-box{
+                    width: 100%;
+                    display: table;
+                    float: left;
+                    .tittle-img{
+                        display: inline-block;
+                        width: 100%;
+                        height: 1.23rem;
+                        float: left;
+                    }
+                    .tittle-img-des{
+                        width: 100%;
+                        padding: 5px 0;
+                        background:#79b5ff;
+                        font-size:0.14rem;
+                        color:#ffffff;
+                        letter-spacing:1.89px;
+                        line-height:0.26rem;
+                        text-align:center;
+                        margin-top: -1px;
+                        float: left;
+                        font-weight: bold;
+                    }
+                }
+                .des{
+                    font-size:0.12rem;
+                    float: left;
+                    color:#656565;
+                    letter-spacing:0.15px;
+                    line-height:0.2rem;
+                    text-align:justify;
+                    width: 100%;
+                    display: inline-block;
+//                  padding-top: 0.1rem;
+//                  padding-bottom: 0.17rem;
+                    text-indent: 2em;
+                }
+                    
+            }
+            .platform-structure{
+                width: 100%;
+                margin-bottom: 0.2rem;
+                h2{
+                    font-size:0.12rem;
+                    color:#a4aab3;
+                    line-height:0.27rem;
+                    text-align:left;
+                    width: 100%;
+                }
+                img{
+                    display: inline-block;
+                    width: 94%;
+                    margin: 0 3%;
+                    height: 2.08rem;
+                }
+            }
+            
+            /* 2.医疗物联云平台  3.开发平台 4.运营支撑平台    5.物联商城*/
+            .structure,.development ,.operationSupport ,.unionMall{
+                width: 100%;
+                margin-bottom: 0.2rem;
+                h1{
+                    font-size: 0.14rem;
+                    color: #a4aab3;
+                    line-height: 0.3rem;
+                    text-align: left;
+                    background: url(../img/structure.png) no-repeat left center;
+                    background-size: 0.25rem 0.25rem;
+                    text-indent: 0.3rem;
+                    font-weight: bold;
+                }
+                .des{
+                    font-size: 0.11rem;
+                    color: #656565;
+                    line-height: 0.14rem;
+                    text-align: justify;
+                    margin-top: 0.11rem;
+                }
+                h2{
+                    font-size: 0.14rem;
+                    color: #a4aab3;
+                    line-height: 0.3rem;
+                    text-align: left;
+                }
+                .product-advantage,.API{
+                    font-size: 0.11rem;
+                    color: #656565;
+                    line-height: 0.18rem;
+                    text-align: justify;
+                }
+            }
+            .development h1{
+                background: url(../img/development.png) no-repeat left center;
+                background-size: 0.25rem 0.25rem;
+            }
+            .operationSupport h1{
+                background: url(../img/operationSupport@3x.png) no-repeat left center;
+                background-size: 0.25rem 0.25rem;
+            }
+            .unionMall h1{
+                background: url(../img/unionMall@3x.png) no-repeat left center;
+                background-size: 0.25rem 0.25rem;
+            }
+           
+        }
+    }
+}
+#footer {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    padding: 0.1rem  5%;
+    height: 1.2rem;
+    background: #fafafa;
+    color:#9b9b9b;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+    font-family:STHeitiSC-Medium;
+    display: flex;
+    border-top: 1px solid #656565;
+    .list{
+        flex: 1;
+        height: 100%;
+        icon{
+            display: inline-block;
+            width: 100%;
+            height: 0.52rem;
+            float: left;
+        }
+        p{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            font-size: 0.1rem;
+            color: #4a4a4a;
+            float: left;
+            margin-top: 0.1rem;
+        }
+    }
+    .list:nth-of-type(1) icon{
+        background: url(../img/structure.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+    .list:nth-of-type(2) icon{
+        background: url(../img/development.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+    .list:nth-of-type(3) icon{
+        background: url(../img/operationSupport@3x.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+    .list:nth-of-type(4) icon{
+        background: url(../img/unionMall@3x.png) no-repeat center;
+        background-size:0.46rem 100% ;
+    }
+}

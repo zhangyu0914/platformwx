@@ -1,0 +1,441 @@
+body {
+    /* On modern browsers, prevent the whole page to bounce */
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: "宋体";
+    #wrapper {
+        position: absolute;
+        left: 7%;
+        right: 7%;
+        top: 2%;
+        bottom: 2%;
+        overflow: hidden;
+        /* Prevent native touch events on Windows */
+        -ms-touch-action: none;
+    
+        /* Prevent the callout on tap-hold and text selection */
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    
+        /* Prevent text resize on orientation change, useful for web-apps */
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        -o-text-size-adjust: none;
+        text-size-adjust: none;
+        #scroller {
+            position: absolute;
+        
+            /* Prevent elements to be highlighted on tap */
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+        
+            /* Put the scroller into the HW Compositing layer right from the start */
+            -webkit-transform: translateZ(0);
+            -moz-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            -o-transform: translateZ(0);
+            transform: translateZ(0);
+            .contain .my-gallery {
+                .none{
+                    display: none !important;
+                }
+                // 婴儿
+                .label-list{
+                    width: 100%;
+                    text-align: center;
+                    #img{
+                        width: 100%;
+//                      height: 1rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                    
+                }
+                .label-baby{
+                    #img{
+                        width: 100%;
+                        height: 1.67rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-mather{
+                    #img{
+                        width: 50%;
+                        height: 1rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-assets{
+                    #img{
+                        width: 1rem;
+                        height: 1rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-nurse{
+                    #img{
+                        width: 100%;
+                        height: 2rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-patient{
+                    #img{
+                        width: 50%;
+                        height: 1.5rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-calling{
+                    #img{
+                        width: 50%;
+                        height: 2rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                // 智能床
+                .label-Intelligent-bed{
+                    #img{
+                        width: 50%;
+//                      height: 1.5rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-reader{
+                    #img{
+                        width: 100%;
+                        height: 1.5rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-Internet{
+                    #img{
+                        width: 100%;
+                        height: 1.5rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-Bedside-card{
+                    #img{
+                        width: 100%;
+                        height: 1.5rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-Positioner{
+                    #img{
+                        width: 100%;
+                        height: 1.5rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .label-monitor{
+                    #img{
+                        width: 50%;
+                        height: 1.5rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                
+                
+                .label-list-des{
+                    width: 100%;
+                    p{
+                        font-size: 0.12rem;
+                        letter-spacing: 1px;
+                        line-height: 0.24rem;
+                        color: #444;
+                        text-align:justify;
+                        span{
+                            font-size: 0.14rem;
+                            font-weight: bold;
+                            color: #ff4e00;
+                            margin-right: 0.05rem;
+                        }
+                    }
+                }
+                
+                .ul{
+                    width: 100%;
+                    li{
+                        display: inline-block;
+                        width: 100%;
+                        line-height: 0.2rem;
+                        font-size: 0.11rem;
+                        background: #EEEEEE;
+                        float: left;
+                        margin-bottom: 5px;
+                        padding-left: 0.25rem;
+                        p{
+                            display: inline-block;
+                            float: left;
+                            line-height: 0.2rem;
+                        }
+                        
+                    }
+                    .location{
+                        background: url(../img/label-013.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .img{
+                        background: url(../img/label-014.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .z{
+                        background: url(../img/label-015.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .si{
+                        background: url(../img/label-016.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .yang{
+                        background: url(../img/label-017.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .bi{
+                        background: url(../img/label-021.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .chi{
+                        background: url(../img/label-019.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .phone{
+                        background: url(../img/label-022.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .ka{
+                        background: url(../img/label-023.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .good{
+                        background: url(../img/label-020.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .FDA{
+                        background: url(../img/label-024.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .ling{
+                        background: url(../img/label-018.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .shu{
+                        background: url(../img/shu.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .shu2{
+                        background: url(../img/shu2.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .shui{
+                        background: url(../img/shui.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                    .yun{
+                        background: url(../img/yun.jpg) no-repeat left top;
+                        background-size: 0.2rem 0.2rem;
+                    }
+                }
+               
+                
+                
+                
+                .tittle-info{
+                    width: 100%;
+                    line-height: 0.2rem;
+                    font-size: 0.12rem;
+                    letter-spacing: 1px;
+                    color: #000;
+                    margin-top: 5px;
+                    text-align: justify;
+                    span{
+                        font-size: 0.16rem;
+                        color: red;
+                        font-weight: bold;
+                    }
+                   
+                }
+                .tittle-img{
+                    width: 100%;
+                    #img-infusion{
+                        width: 100%;
+                        height: 1rem;
+                        margin: 0.1rem 0;
+                        background: #fff;
+                    }
+                }
+                .substitution{
+                    width: 80%;
+                    padding: 0 10%;
+                    .subs-header{
+                        width: 100%;
+                        height: 0.4rem;
+                        line-height: 0.4rem;
+                        font-size: 0.14rem;
+                        color: #fff;font-weight: bold;
+                        background: #99d4ff;
+//                      background: url(../img/infusion-3.png) no-repeat center;
+                        background-size: 100% 100%;
+                        text-align: center;
+                    }
+                    .subs-content{
+                        width: 100%;
+                        .list{
+                            width: 100%;
+                            background: #EEEEEE;
+                            background-size: 100% 100%;
+                            display: table;
+                            margin: 0.1rem 0;
+                            border-radius: 10px;
+                            .list-header{
+                                margin: 0.1rem 0;
+                                font-size: 0.14rem;
+                                line-height: 0.28rem;
+                                float: left;
+                                background: #99d4ff;
+                                width: 100%;
+                                color: #fff;
+                                text-align: center;
+                                letter-spacing: 5px;
+                                font-weight: bold;
+                            }
+                            ul{
+                                width: 100%;
+                                display: inline-block;
+                                float: left;
+                                margin: 0.1rem 0;
+                                li{
+                                    display: inline-block;
+                                    font-size: 0.1rem;
+                                    color: #777777;
+                                    line-height: 0.2rem;
+                                    padding-left: 5%;
+                                    float: left;
+                                    width: 45%;
+                                }
+                            }
+                            
+                            
+                        }
+                    }
+                }
+                
+                .interface-des{
+                    width: 100%;
+                    display: table;
+                    p{
+                        display: inline-block;
+                        font-size: 0.12rem;
+                        line-height: 0.24rem;
+                        color: #454545;
+                        float: left;
+                        span{
+                            font-size: 0.14rem;
+                            font-weight: bold;
+                            color: #444444;
+                        }
+                    }
+                }
+                .interface-img{
+                    width: 100%;
+                    padding: 0.15rem 0;
+                    #img{
+                        width: 100%;
+                        height: 2rem;
+                    }
+                }
+                
+                h1{
+//                  width: 100%;
+                    text-align: left;
+                    font-size: 0.18rem;
+                    line-height: 0.3rem;
+                    color: #454545;
+                    border-left: 5px solid red;
+                    margin: 0.1rem 0;
+                    text-indent: 0.1rem;
+                }
+                .Characteristic{
+                    width: 100%;
+                    
+                    .list{
+                        width: 100%;
+                        display: table;
+                        font-size: 0.12rem;
+                        color: #3e3a39;
+                        span,p{
+                            display: inline-block;
+                            float: left;
+                            line-height: 0.24rem;
+                            
+                        }
+                        p{
+                            width: 92%;
+                            line-height: 0.24rem;
+                            
+                        }
+                        span{
+                                font-size: 0.13rem;
+                                font-weight: bold;
+                                color: red;
+                            }
+                    }
+                       
+                    .kong{
+                        width: 100%;
+                        height: 0.5rem;
+                        float: left;
+                    }
+                    
+                }
+                
+                
+                
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+fieldset,img {
+    border: 0;
+}
+
+figure {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+.pswp__img{
+    background: #fff;
+}

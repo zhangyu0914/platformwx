@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>盈网科技有限公司</title>
+
+		<link rel="stylesheet" href="../static/css/style.css" media="screen" type="text/css" />
+		<script type="text/javascript" src="../static/js/gVerify.js"></script>
+		<script type="text/javascript" src="../static/js/jquery/jquery-2.0.0.js"></script>
+		<script type="text/javascript" src="../static/js/mailDetail.js"></script>
+		<script type="text/javascript" src="../static/layer-v3.0.3/layer/skin/default/layer.css"></script>
+		<script type="text/javascript" src="../static/layer-v3.0.3/layer/layer.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<form id="contact" method="post">
+				<h3 style="position:relative;">
+      <img src='../static/img/email.jpg' style="position:absolute; width:30px; height:23px; top:3px;"/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span>邮箱：awarecloud@mlink.cc</span>
+    </h3>
+				<p>您也可以直接填写以下表格并留下联系方式，我们会尽快给您回复</p>
+				<hr style="margin: 0 0 15px;" />
+				<table>
+					<tr>
+						<td>姓名/职位：</td>
+						<td><input id="userName" name="userName" type="text" tabindex="1" required="required" autofocus="autofocus" /></td>
+						<td><span id="userName1" class="td"></span></td>
+					</tr>
+					<tr>
+						<td>公司名称：</td>
+						<td><input id="corporateName" name="corporateName" type="text" tabindex="2" required="required"/></td>
+						<td><span id="corporateName1" class="td"></span></td>
+					</tr>
+					<tr>
+						<td>电话：</td>
+						<td><input id="phone" name="phone" type="text" tabindex="3" required="required"/></td>
+						<td><span id="phone1" class="td"></span></td>
+					</tr>
+					<tr>
+						<td>联系邮箱：</td>
+						<td><input id="email" name="email" type="text" tabindex="4" required="required"/></td>
+						<td><span id="email1" class="td"></span></td>
+					</tr>
+					<tr>
+						<td valign="top">内容：</td>
+						<td><textarea id="content" name="content" tabindex="5" required="required"></textarea></td>
+						<td><span id="content1" class="td"></span></td>
+					</tr>
+					<tr>
+						<td>验证码：</td>
+						<td style="position:relative;"><input id="validateCode" type="text" maxlength="4" tabindex="6" required="required"
+						/>
+							<p id="code_container"></p>
+						</td>
+					</tr>
+				</table>
+				<button type="button" id="contact_submit">发送</button>
+			</form>
+
+		</div>
+		<div style="text-align:center;clear:both">
+
+		</div>
+	</body>
+
+</html>

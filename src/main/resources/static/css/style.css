@@ -1,0 +1,102 @@
+
+* {
+	margin:0;
+	padding:0;
+	text-rendering:optimizeLegibility;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	background:#F9F9F9;
+}
+
+.container {
+	max-width:600px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"],  #contact button[type="button"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding: 25px;
+	margin: 20px 0;
+}
+
+#contact table{
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+#contact td:nth-of-type(odd){ text-align: right; width: 30%; /* border: 1px solid red; */} /* 奇数行  */  
+#contact td:nth-of-type(even){text-align: left; /* border: 1px solid blue;  */} /* 偶数行  */
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], textarea{
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:8px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	border:1px solid #09C;
+}
+
+#contact textarea {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	height:100px;
+ 	width:100%;
+  	resize:none; 
+}
+
+#contact #validateCode{
+	width: 30%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+/* 	padding:8px; */
+}
+
+#contact #code_container{
+	width: 90px; 
+	height: 40px;
+	position: absolute; 
+	top: 0px; 
+	left: 65px;
+	/* margin-left:-15px; */
+} 
+
+#contact button[type="button"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:5px 0;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="button"]:hover {
+	background:#09C;
+}
+
+#contact button[type="button"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #00CCFF;
+}
+
+.td{
+	font-size: 11px;
+	color:red;
+}

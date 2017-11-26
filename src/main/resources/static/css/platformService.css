@@ -1,0 +1,397 @@
+.none {
+  display: none;
+}
+fieldset,
+img {
+  border: 0;
+}
+figure {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+.pswp__img {
+  background: #fff;
+}
+/* 1. 顶部tab  */
+#service-header {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  height: 0.4rem;
+  width: 100%;
+  display: flex;
+  font-family: STHeitiSC-Medium;
+  background: #333;
+}
+#service-header .list {
+  flex: 1;
+  display: inline-block;
+  font-size: 0.14rem;
+  line-height: 0.4rem;
+  text-align: center;
+  color: #999;
+}
+#service-header .list:nth-of-type(1),
+#service-header .list:nth-of-type(2) {
+  border-right: 1px solid #eee;
+}
+#service-header .active {
+  color: #fff;
+}
+/* 2. 内容区域  */
+#service-content {
+  position: absolute;
+  z-index: 1;
+  top: 0.5rem;
+  bottom: 0;
+  left: 0;
+  width: 84%;
+  overflow: hidden;
+  font-family: STHeitiSC-Medium;
+  padding: 2% 8%;
+  /* 2.1 智能硬件  */
+  /* 2.2 创新应用 */
+  /* 2.3 接入服务 */
+}
+#service-content .product,
+#service-content .innovate {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#service-content .product a,
+#service-content .innovate a {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  padding: 0.2rem 0.15rem;
+  border: 2px solid #b1bacf;
+  border-radius: 8px;
+  float: left;
+  margin-bottom: 0.1rem;
+  margin-right: 0.13rem;
+}
+#service-content .product a img,
+#service-content .innovate a img {
+  display: inline-block;
+  width: 100%;
+  height: 0.4rem;
+  float: left;
+}
+#service-content .product a .img-box,
+#service-content .innovate a .img-box {
+  width: 100%;
+  height: 0.4rem;
+  float: left;
+}
+#service-content .product a p,
+#service-content .innovate a p {
+  display: inline-block;
+  width: 103%;
+  font-size: 0.1rem;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  color: #808799;
+  letter-spacing: -0.07px;
+  text-align: center;
+  float: left;
+  margin-top: 0.07rem;
+}
+#service-content .product a:nth-of-type(3n),
+#service-content .innovate a:nth-of-type(3n) {
+  margin-right: 0;
+}
+#service-content .product a:nth-last-of-type,
+#service-content .innovate a:nth-last-of-type {
+  margin-bottom: 2rem;
+}
+#service-content .product .kong,
+#service-content .innovate .kong {
+  width: 100%;
+  height: 1rem;
+  float: left;
+}
+#service-content .product .bed img,
+#service-content .innovate .bed img {
+  height: 0.3rem;
+  margin: 0.05rem 0;
+}
+#service-content .product .label-006 img,
+#service-content .innovate .label-006 img {
+  width: 60%;
+  margin-left: 20%;
+}
+#service-content .product #wrapper {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  overflow: hidden;
+  /* Prevent native touch events on Windows */
+  -ms-touch-action: none;
+  /* Prevent the callout on tap-hold and text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent text resize on orientation change, useful for web-apps */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+#service-content .product #wrapper #scroller {
+  position: absolute;
+  /* Prevent elements to be highlighted on tap */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* Put the scroller into the HW Compositing layer right from the start */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+#service-content .innovate a:nth-of-type(1) .img-box {
+  background: url(../img/innovate-baby-theft@3x.png) no-repeat center;
+  background-size: 0.4rem 0.35rem;
+}
+#service-content .innovate a:nth-of-type(2) .img-box {
+  background: url(../img/innovate-personnel@3x.png) no-repeat center;
+  background-size: 0.4rem 0.35rem;
+}
+#service-content .innovate a:nth-of-type(3) .img-box {
+  background: url(../img/innovate-humiture@3x.png) no-repeat center;
+  background-size: 0.4rem 0.35rem;
+}
+#service-content .innovate a:nth-of-type(4) .img-box {
+  background: url(../img/innovate-cold-chain@3x.png) no-repeat center;
+  background-size: 0.4rem 0.35rem;
+}
+#service-content .innovate a:nth-of-type(5) .img-box {
+  background: url(../img/innovate-hygrothermograph@3x.png) no-repeat center;
+  background-size: 0.4rem 0.35rem;
+}
+#service-content .innovate a:nth-of-type(6) .img-box {
+  background: url(../img/innovate-intelligent-bed@3x.png) no-repeat center;
+  background-size: 0.4rem 0.35rem;
+}
+#service-content .innovate a:nth-of-type(7) .img-box {
+  background: url(../img/innovate-infusion@3x.png) no-repeat center;
+  background-size: 0.4rem 0.35rem;
+}
+#service-content .access-service {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#service-content .access-service #wrapper {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 1%;
+  bottom: 5%;
+  overflow: hidden;
+  -ms-touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+#service-content .access-service #wrapper #scroller {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  padding: 1% 0;
+}
+#service-content .access-service #wrapper #scroller h1 {
+  width: 100%;
+  font-family: FZLTZCHK--GBK1-0;
+  font-size: 0.14rem;
+  color: #a4aab3;
+  text-align: left;
+  margin-bottom: 0.18rem;
+  font-weight: bold;
+}
+#service-content .access-service #wrapper #scroller .access-service-img {
+  width: 92%;
+  padding: 0 4%;
+}
+#service-content .access-service #wrapper #scroller .access-service-img .img-box {
+  display: flex;
+  width: 100%;
+}
+#service-content .access-service #wrapper #scroller .access-service-img .img-box .img-01-box,
+#service-content .access-service #wrapper #scroller .access-service-img .img-box .img-02-box {
+  flex: 1;
+  height: 1rem;
+}
+#service-content .access-service #wrapper #scroller .access-service-img .img-box .img-01-box img,
+#service-content .access-service #wrapper #scroller .access-service-img .img-box .img-02-box img {
+  width: 100%;
+  height: 100%;
+}
+#service-content .access-service #wrapper #scroller .access-service-img .des {
+  width: 100%;
+  padding: 0.15rem 0;
+  display: flex;
+}
+#service-content .access-service #wrapper #scroller .access-service-img .des p {
+  display: inline-block;
+  flex: 1;
+  font-size: 0.1rem;
+  color: #808799;
+  letter-spacing: -0.07px;
+  text-align: center;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart {
+  width: 94%;
+  padding: 0 3%;
+  position: relative;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .top,
+#service-content .access-service #wrapper #scroller .access-flow-chart .bottom {
+  height: 0.6rem;
+  width: 100%;
+  display: table;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .top p,
+#service-content .access-service #wrapper #scroller .access-flow-chart .bottom p {
+  width: 0.58rem;
+  height: 0.58rem;
+  line-height: 0.58rem;
+  display: inline-block;
+  float: left;
+  font-family: LucidaGrande;
+  font-size: 0.1rem;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  color: #ffffff;
+  text-align: center;
+  background: #5fc6ec;
+  border-radius: 50%;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .top .margin-right,
+#service-content .access-service #wrapper #scroller .access-flow-chart .bottom .margin-right {
+  margin-right: 0.58rem;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .top .margin-left,
+#service-content .access-service #wrapper #scroller .access-flow-chart .bottom .margin-left {
+  margin-left: 0.58rem;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .arrow {
+  width: 0.16rem;
+  height: 0.2rem;
+  position: absolute;
+  top: 0.49rem;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .down {
+  background: url(../img/access-arrow-down@3x.png) no-repeat center;
+  background-size: 100% 100%;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .up {
+  background: url(../img/access-arrow-up@3x.png) no-repeat center;
+  background-size: 100% 100%;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .frist {
+  left: 0.58rem;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .second {
+  left: 1.18rem;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .third {
+  left: 1.74rem;
+}
+#service-content .access-service #wrapper #scroller .access-flow-chart .four {
+  left: 2.34rem;
+}
+#service-content .access-service #wrapper #scroller .des {
+  font-family: STHeitiSC-Medium;
+  font-size: 0.12rem;
+  color: #656565;
+  letter-spacing: 0.15px;
+  line-height: 0.2rem;
+  text-align: justify;
+  display: inline-block;
+  margin-top: 0.16rem;
+}
+.window {
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+}
+.window .cloes-tag {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  -ms-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.window .cloes-tag:before,
+.window .cloes-tag:after {
+  content: '';
+  position: absolute;
+  background-color: #a9a9a9;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+.window .cloes-tag:before {
+  left: 45%;
+  top: -10%;
+  width: 10%;
+  height: 120%;
+}
+.window .cloes-tag:after {
+  top: 45%;
+  left: -10%;
+  width: 120%;
+  height: 10%;
+}
+.window img {
+  width: 100%;
+  height: 35%;
+  margin-top: -30%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  right: 0;
+}
+.window-show {
+  visibility: visible;
+  opacity: 1;
+}

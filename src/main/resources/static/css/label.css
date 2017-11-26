@@ -1,0 +1,167 @@
+body {
+  /* On modern browsers, prevent the whole page to bounce */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "宋体";
+}
+body #wrapper {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  top: 2%;
+  bottom: 2%;
+  overflow: hidden;
+  /* Prevent native touch events on Windows */
+  -ms-touch-action: none;
+  /* Prevent the callout on tap-hold and text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent text resize on orientation change, useful for web-apps */
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+body #wrapper #scroller {
+  position: absolute;
+  /* Prevent elements to be highlighted on tap */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* Put the scroller into the HW Compositing layer right from the start */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+body #wrapper #scroller .contain .my-gallery .tittle-info {
+  width: 100%;
+  line-height: 0.2rem;
+  font-size: 0.1rem;
+  color: #000;
+  margin-top: 5px;
+}
+body #wrapper #scroller .contain .my-gallery .tittle-info span {
+  font-size: 0.16rem;
+  color: red;
+  font-weight: bold;
+}
+body #wrapper #scroller .contain .my-gallery .tittle-img {
+  width: 100%;
+}
+body #wrapper #scroller .contain .my-gallery .tittle-img #img-infusion {
+  width: 100%;
+  height: 1rem;
+  margin: 0.1rem 0;
+  background: #fff;
+}
+body #wrapper #scroller .contain .my-gallery .substitution {
+  width: 100%;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-header {
+  width: 100%;
+  height: 0.24rem;
+  line-height: 0.24rem;
+  font-size: 0.14rem;
+  color: #333;
+  background: #EEEEEE;
+  text-align: center;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content {
+  width: 100%;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content .list {
+  width: 100%;
+  display: table;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content .list .list-header {
+  font-size: 0.14rem;
+  line-height: 0.28rem;
+  float: left;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content .list ul {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  margin: 0.1rem 0;
+}
+body #wrapper #scroller .contain .my-gallery .substitution .subs-content .list ul li {
+  display: inline-block;
+  font-size: 0.1rem;
+  color: #777777;
+  line-height: 0.2rem;
+  padding-left: 5%;
+  float: left;
+  width: 45%;
+}
+body #wrapper #scroller .contain .my-gallery .interface-des {
+  width: 100%;
+  display: table;
+}
+body #wrapper #scroller .contain .my-gallery .interface-des p {
+  display: inline-block;
+  font-size: 0.12rem;
+  line-height: 0.24rem;
+  color: #454545;
+  float: left;
+}
+body #wrapper #scroller .contain .my-gallery .interface-des p span {
+  font-size: 0.14rem;
+  font-weight: bold;
+  color: #444444;
+}
+body #wrapper #scroller .contain .my-gallery .interface-img {
+  width: 100%;
+  padding: 0.15rem 0;
+}
+body #wrapper #scroller .contain .my-gallery .interface-img #img {
+  width: 100%;
+  height: 2rem;
+}
+body #wrapper #scroller .contain .my-gallery h1 {
+  text-align: left;
+  font-size: 0.18rem;
+  line-height: 0.3rem;
+  color: #454545;
+  border-left: 5px solid red;
+  margin: 0.05rem 0;
+  text-indent: 0.1rem;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic {
+  width: 100%;
+  display: table;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic p {
+  display: inline-block;
+  float: left;
+  font-size: 0.12rem;
+  color: #3e3a39;
+  line-height: 0.24rem;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic p span {
+  font-size: 0.14rem;
+  font-weight: bold;
+}
+body #wrapper #scroller .contain .my-gallery .Characteristic .kong {
+  width: 100%;
+  height: 0.5rem;
+  float: left;
+}
+fieldset,
+img {
+  border: 0;
+}
+figure {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+.pswp__img {
+  background: #fff;
+}

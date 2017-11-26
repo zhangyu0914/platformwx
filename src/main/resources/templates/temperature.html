@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>体温实时监测管理系统</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/reset.css"/>
+		<link rel="stylesheet prefetch" href="../static/css/photoswiper/photoswipe.css" />
+		<link rel="stylesheet prefetch" href="../static/css/photoswiper/default-skin/default-skin.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/temperature.css"/>
+		<script src="../static/js/fontSize/setfontsize.js"></script>
+		<script src="../static/js/iscroll.js"></script>
+		<script src="../static/js/zepto.min.js"></script>
+		<script src="../static/js/_iscroll.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="scroller">
+				<div class="contain">
+					<div class="loading"></div>
+					<div class="my-gallery" data-pswp-uid="1">
+						<div class="tittle-info">
+							<span>体温实时监测管理系统</span>&nbsp;采用物联网传感技术和无线通信技术，借助体温标签，对病人体温实现实时、连续自动采集，变传统的体温监测为体温监护，为医院提供简约、智能的体温监测方案。
+						</div>
+						<div class="tittle-img">
+							<figure>
+								<span>
+								  	<a data-size="1070x380" href="../static/img/temperature-1.png">
+								  		<img id="img-1" src="../static/img/temperature-1.png" />
+								  	</a>
+								</span>
+							</figure>
+							<figure>
+								<span>
+								  	<a data-size="1070x200" href="../static/img/temperature-2.png">
+								  		<img id="img-2" src="../static/img/temperature-2.png" />
+								  	</a>
+								</span>
+							</figure>
+							<figure>
+								<span>
+								  	<a data-size="1070x550" href="../static/img/temperature-3.png">
+								  		<img id="img-3" src="../static/img/temperature-3.png" />
+								  	</a>
+								</span>
+							</figure>
+						</div>
+						
+						<h3>舒适体验</h3>
+						<div class="advantage">
+							<p>极致轻巧，在病人无感知情况下感知病人</p>
+							<p>随时主动采集体温数据，不打扰病人休息</p>
+							<p>自动化体温采集过程，零录入、零差错，提高医护人员效率</p>
+						</div>
+						<h3>智能管理</h3>
+						<div class="advantage">
+							<p>自定义体温采集频率</p>
+							<p>自定义发烧报警</p>
+							<p>标签脱落告警</p>
+						</div>
+						<h3>开放共享</h3>
+						<div class="advantage">
+							<p>提供标准接口，方便与其他系统集成</p>
+							<p>实现体温数据临床信息系统全面共享</p>
+						</div>
+						
+						<h1>实时、连续采集</h1>
+						<div class="real-time-tittle">
+							<span class="span">•</span>
+							<div class="pp">连续采集，变体温测量<span>体温监护</span>，第一时间发现病情拐点</div>
+							
+						</div>
+						<div class="real-time-box">
+							<figure>
+								<span>
+								  	<a data-size="465x310" href="../static/img/temperature-6.png">
+								  		<img id="img" src="../static/img/temperature-6.png" />
+								  	</a>
+								</span>
+							</figure>
+						</div>
+						
+						<h3 class="real-time-tittle"><span>•</span>24小时不断呵护，始终在你身边</h3>
+						<h3 class="real-time-tittle"><span>•</span>实时显示，提高体温信息<span>可视化</span>界面</h3>
+						<div class="real-time-box">
+							<figure>
+								<span>
+								  	<a data-size="465x310" href="../static/img/temperature-7.png">
+								  		<img id="img" src="../static/img/temperature-7.png" />
+								  	</a>
+								</span>
+							</figure>
+						</div>
+						<h1>物联网体温标签参数</h1>
+						<div class="parameter">
+							<figure>
+								<span>
+								  	<a id="a_img" data-size="1070x437" href="../static/img/temperature-8.png">
+								  		<img id="img" src="../static/img/temperature-8.png" />
+								  	</a>
+								</span>
+							</figure>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Root element of PhotoSwipe. Must have class pswp.photoswipe的根元素。必须有class pswp。 -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+			<!-- Background of PhotoSwipe. 
+    	它是一个单独的元素作为动画透明度比rgba()。
+         It's a separate element as animating opacity is faster than rgba(). -->
+			<div class="pswp__bg"></div>
+
+			<!-- Slides wrapper with overflow:hidden.包装与溢出：隐藏幻灯片。 -->
+			<div class="pswp__scroll-wrap">
+
+				<!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+				<div class="pswp__container">
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+				</div>
+
+				<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+				<div class="pswp__ui pswp__ui--hidden">
+
+					<div class="pswp__top-bar">
+
+						<div class="pswp__counter"></div>
+
+						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+						<div class="pswp__preloader">
+							<div class="pswp__preloader__icn">
+								<div class="pswp__preloader__cut">
+									<div class="pswp__preloader__donut"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+						<div class="pswp__share-tooltip"></div>
+					</div>
+
+					<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+					<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+					<div class="pswp__caption">
+						<div class="pswp__caption__center"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+	</body>
+	
+	
+	
+	<script src="../static/js/photoswiper/photoswipe.js"></script>
+	<script src="../static/js/photoswiper/photoswipe-ui-default.min.js"></script>
+	<!--点击放大的动作-->
+	<script type="text/javascript" src="../static/js/photoswiper/initPhoto.js"></script>
+</html>

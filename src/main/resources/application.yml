@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  context-path: /platformwx
+  tomcat.uri-encoding: UTF-8
+spring:
+  http:
+    encoding.charset: UTF-8
+    encoding.force: true
+    encoding:
+      enabled: true
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/platformwx?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: password
+  thymeleaf:
+    prefix: classpath:/templates/  
+    suffix: .html  
+    mode: HTML5  
+    encoding: UTF-8  
+    cache: false
+    
+logging:
+  level:
+    com.yw.platformwx: debug    
+mybatis:
+    typeAliasesPackage: com.yw.platformwx.entity
+   

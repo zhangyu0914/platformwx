@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>环境监测管理系统</title>
+		<link rel="stylesheet" type="text/css" href="../static/css/reset.css"/>
+		<link rel="stylesheet prefetch" href="../static/css/photoswiper/photoswipe.css"/>
+		<link rel="stylesheet prefetch" href="../static/css/photoswiper/default-skin/default-skin.css" />
+		<link rel="stylesheet" type="text/css" href="../static/css/ambient.css"/>
+		<script src="../static/js/fontSize/setfontsize.js"></script>
+		<script src="../static/js/iscroll.js"></script>
+		<script src="../static/js/zepto.min.js"></script>
+		<script src="../static/js/_iscroll.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="scroller">
+				<div class="contain">
+					<div class="loading"></div>
+					<div class="my-gallery" data-pswp-uid="1">
+						<div class="tittle-info">
+							<span>环境监测管理系统</span>&nbsp;可实现对医院病房、库房、药房、机房等不同监测区域的环境参数（如温度、湿度等）进行实时监测、异常情况报警等功能，同时可查询实时报表、历史报表、报警信息等各类数据。系统可根据不同管理人员进行权限划分。实现对环境参数的智能化、有效、实时管理。
+						</div>
+						<div class="tittle-img">
+							<figure>
+								<span>
+								  	<a data-size="1070x190" href="../static/img/ambient-1.png">
+								  		<img id="img" src="../static/img/ambient-1.png" />
+								  	</a>
+								</span>
+							</figure>
+						</div>
+						
+						<h1>系统功能</h1>
+						<div class="system">
+							<p><span class="sp1"></span><span class="des">环境参数实时监测</span></p>
+							<p><span class="sp2"></span><span class="des">分级、分权、分区管理</span></p>
+							<p><span class="sp3"></span><span class="des">异常情况及时报警</span></p>
+							<p><span class="sp4"></span><span class="des">实时/历史数据查看</span></p>
+						</div>
+						
+						<h1>软件展示</h1>
+						<div class="software-box">
+							<figure>
+								<span>
+								  	<a data-size="1070x487" href="../static/img/ambient-2.png">
+								  		<img id="img" src="../static/img/ambient-2.png" />
+								  	</a>
+								</span>
+							</figure>
+							<figure>
+								<span>
+								  	<a data-size="1070x487" href="../static/img/ambient-3.png">
+								  		<img id="img" src="../static/img/ambient-3.png" />
+								  	</a>
+								</span>
+							</figure>
+							<figure>
+								<span>
+								  	<a data-size="1070x487" href="../static/img/ambient-4.png">
+								  		<img id="img" src="../static/img/ambient-4.png" />
+								  	</a>
+								</span>
+							</figure>
+							<figure>
+								<span>
+								  	<a data-size="1070x487" href="../static/img/ambient-5.png">
+								  		<img id="img" src="../static/img/ambient-5.png" />
+								  	</a>
+								</span>
+							</figure>
+						</div>
+						<h1>系统特点</h1>
+						<div class="trait">
+							<ul>
+								<li><span>1</span>支持多种环境参数监测</li>
+								<li><span>2</span>异常多重报警、安全可靠</li>
+								<li><span>3</span>多种报表，数据可追溯</li>
+								<li><span>4</span>超长供电时间，低电量报警</li>
+								<li><span>5</span>无需布线，部署便捷</li>
+								<li><span>6</span>悬挂或粘贴安装，满足多场景</li>
+							</ul>
+						</div>
+						<h1>应用场景</h1>
+						<div class="scene">
+							<figure>
+								<span>
+								  	<a id="a_img" data-size="1070x615" href="../static/img/ambient-10.png">
+								  		<img id="img" src="../static/img/ambient-10.png" />
+								  	</a>
+								</span>
+							</figure>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Root element of PhotoSwipe. Must have class pswp.photoswipe的根元素。必须有class pswp。 -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+			<!-- Background of PhotoSwipe. 
+    	它是一个单独的元素作为动画透明度比rgba()。
+         It's a separate element as animating opacity is faster than rgba(). -->
+			<div class="pswp__bg"></div>
+
+			<!-- Slides wrapper with overflow:hidden.包装与溢出：隐藏幻灯片。 -->
+			<div class="pswp__scroll-wrap">
+
+				<!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+				<div class="pswp__container">
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+				</div>
+
+				<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+				<div class="pswp__ui pswp__ui--hidden">
+
+					<div class="pswp__top-bar">
+
+						<!--  Controls are self-explanatory. Order can be changed. -->
+
+						<div class="pswp__counter"></div>
+
+						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+						<div class="pswp__preloader">
+							<div class="pswp__preloader__icn">
+								<div class="pswp__preloader__cut">
+									<div class="pswp__preloader__donut"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+						<div class="pswp__share-tooltip"></div>
+					</div>
+
+					<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+					<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+					<div class="pswp__caption">
+						<div class="pswp__caption__center"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+	</body>
+	
+	
+	
+	<script src="../static/js/photoswiper/photoswipe.js"></script>
+	<script src="../static/js/photoswiper/photoswipe-ui-default.min.js"></script>
+	<!--点击放大的动作-->
+	<script type="text/javascript" src="../static/js/photoswiper/initPhoto.js"></script>
+</html>

@@ -1,0 +1,347 @@
+.product {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.product #wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 3%;
+  bottom: 3%;
+  left: 8%;
+  width: 84%;
+  background: #fff;
+  overflow: hidden;
+}
+.product #wrapper #scroller {
+  position: absolute;
+  z-index: 1;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}
+.product #wrapper #scroller .nav {
+  width: 100%;
+  height: 1.45rem;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .nav img {
+  height: 100%;
+  width: 100%;
+}
+.product #wrapper #scroller fieldset,
+.product #wrapper #scroller img {
+  border: 0;
+}
+.product #wrapper #scroller figure {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+.product #wrapper #scroller .int-nav {
+  width: 100%;
+  height: 1.75rem;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .int-nav img {
+  height: 100%;
+  width: 100%;
+}
+.product #wrapper #scroller .working-principle {
+  width: 100%;
+  height: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .working-principle img {
+  height: 100%;
+  width: 100%;
+}
+.product #wrapper #scroller .system-composition {
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .system-composition img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .system-composition #img-013 {
+  height: 0.8rem;
+  width: 100%;
+}
+.product #wrapper #scroller .system-composition #img-03 {
+  height: 2rem;
+  width: 100%;
+}
+.product #wrapper #scroller .system-composition #img-04 {
+  height: 3.36rem;
+  width: 100%;
+}
+.product #wrapper #scroller .core-function {
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .core-function img {
+  height: 100%;
+  width: 100%;
+}
+.product #wrapper #scroller .core-function #img-05 {
+  height: 3.34rem;
+  width: 100%;
+}
+.product #wrapper #scroller .core-function-des {
+  font-size: 0.12rem;
+  width: 100%;
+  color: #444;
+  line-height: 0.2rem;
+}
+.product #wrapper #scroller .core-function-des p {
+  margin: 2%;
+  height: 0.6rem;
+  background: #eee;
+  width: 80%;
+  padding-left: 15%;
+  display: inline-block;
+}
+.product #wrapper #scroller .core-function-des p span:nth-of-type(1) {
+  display: block;
+  font-size: 0.14rem;
+  color: red;
+}
+.product #wrapper #scroller .core-function-des p span:nth-of-type(2) {
+  display: block;
+}
+.product #wrapper #scroller .core-function-des P:nth-of-type(1) {
+  background: url(../img/shui.jpg) no-repeat left center;
+  background-size: 0.4rem 0.4rem;
+}
+.product #wrapper #scroller .core-function-des P:nth-of-type(2) {
+  background: url(../img/shu.jpg) no-repeat left center;
+  background-size: 0.4rem 0.4rem;
+}
+.product #wrapper #scroller .core-function-des P:nth-of-type(3) {
+  background: url(../img/shu2.jpg) no-repeat left center;
+  background-size: 0.4rem 0.4rem;
+}
+.product #wrapper #scroller .core-function-des P:nth-of-type(4) {
+  background: url(../img/yun.jpg) no-repeat left center;
+  background-size: 0.4rem 0.4rem;
+  height: 0.4rem;
+}
+.product #wrapper #scroller .application-scenarios {
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .application-scenarios .imgBox {
+  display: table;
+}
+.product #wrapper #scroller .application-scenarios .imgBox figure {
+  display: table;
+}
+.product #wrapper #scroller .application-scenarios .imgBox a {
+  float: left;
+  display: inline-block;
+}
+.product #wrapper #scroller .application-scenarios .imgBox img {
+  height: 100%;
+  width: 100%;
+}
+.product #wrapper #scroller .application-scenarios .imgBox #img-07 {
+  width: 100%;
+}
+.product #wrapper #scroller .application-scenarios .imgBox #img-08 {
+  width: 100%;
+}
+.product #wrapper #scroller .application-scenarios .des {
+  width: 100%;
+  display: flex;
+  font-size: 0.14rem;
+  line-height: 0.14rem;
+  text-align: center;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .application-scenarios .des p {
+  display: inline-block;
+  flex: 1;
+}
+.product #wrapper #scroller .application-scenarios-des {
+  width: 100%;
+  margin-top: 0.15rem;
+}
+.product #wrapper #scroller .application-scenarios-des .top {
+  width: 100%;
+  display: flex;
+}
+.product #wrapper #scroller .application-scenarios-des .top .list {
+  flex: 1;
+  font-size: 0.12rem;
+  padding: 0.1rem;
+  line-height: 0.2rem;
+  border: 1px solid #000;
+  border-radius: 0.1rem;
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .application-scenarios-des .top .list span {
+  font-size: 0.16rem;
+  display: block;
+  color: red;
+}
+.product #wrapper #scroller .application-scenarios-des .top .list:nth-of-type(2) {
+  margin-right: 0;
+}
+.product #wrapper #scroller .Live {
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+.product #wrapper #scroller .Live img {
+  height: 100%;
+  width: 100%;
+}
+.product #wrapper #scroller .Live #img-11 {
+  width: 100%;
+}
+.product #wrapper #scroller .Live #img-12 {
+  width: 80%;
+  margin-left: 10%;
+}
+.product #wrapper #scroller .teamworks p {
+  font-size: 0.12rem;
+  letter-spacing: 1px;
+  line-height: 0.2rem;
+  color: #444444;
+}
+.product #wrapper #scroller .product-brief {
+  display: block;
+  width: 100%;
+  color: #000;
+  line-height: 0.20rem;
+  font-size: 0.12rem;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+.product #wrapper #scroller .product-brief span {
+  font-size: 0.16rem;
+  color: red;
+  font-weight: bold;
+}
+.product #wrapper #scroller .product-img {
+  width: 100%;
+}
+.product #wrapper #scroller .product-img #img {
+  width: 100%;
+  height: 100%;
+}
+.product #wrapper #scroller .img-des {
+  width: 100%;
+  font-size: 0.1rem;
+  text-align: center;
+  line-height: 0.24rem;
+}
+.product #wrapper #scroller .img-des-ul {
+  display: table;
+}
+.product #wrapper #scroller .img-des-ul li {
+  display: inline-block;
+  float: left;
+  font-size: 0.1rem;
+  line-height: 0.2rem;
+  margin-bottom: 2px;
+  color: #7a7a7a;
+}
+.product #wrapper #scroller .img-des-ul li span {
+  display: inline-block;
+}
+.product #wrapper #scroller .img-des-ul li .icon {
+  width: 0.2rem;
+  height: 0.2rem;
+  background: red;
+  border-radius: 50%;
+  margin-right: 0.05rem;
+  text-align: center;
+  color: #fff;
+}
+.product #wrapper #scroller .img-des-ul li .name {
+  font-weight: bold;
+}
+.product #wrapper #scroller h1 {
+  border-left: 5px solid red;
+  font-size: 0.2rem ;
+  text-align: left;
+  line-height: 0.24rem;
+  margin: 0.2rem 0 0.05rem 0;
+  text-indent: 0.1rem;
+}
+.product #wrapper #scroller .info {
+  font-size: 0.12rem ;
+  line-height: 0.24rem;
+  color: #7a7a7a;
+}
+.product #wrapper #scroller .dl-box {
+  width: 100%;
+}
+.product #wrapper #scroller .dl-box dl {
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+.product #wrapper #scroller .dl-box dl dt {
+  display: inline-block;
+  width: 100%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  font-size: 0.12rem;
+  font-weight: bold;
+  float: left;
+}
+.product #wrapper #scroller .dl-box dl dd {
+  float: left;
+  width: 100%;
+  height: 1.5rem;
+}
+.product #wrapper #scroller .dl-box dl .dl-01 {
+  background: url(../img/baby-dl-01.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.product #wrapper #scroller .dl-box dl .dl-02 {
+  background: url(../img/baby-dl-02.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.product #wrapper #scroller .dl-box dl .dl-03 {
+  background: url(../img/baby-dl-03.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.product #wrapper #scroller .dl-box dl .dl-04 {
+  background: url(../img/baby-dl-04.png) no-repeat center;
+  background-size: 100% 100%;
+}
+.product #wrapper #scroller .case {
+  width: 100%;
+  display: table;
+}
+.product #wrapper #scroller .case ul {
+  display: inline-block;
+}
+.product #wrapper #scroller .case ul li {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  line-height: 0.2rem;
+  font-size: 0.12rem;
+  color: #777777;
+}
